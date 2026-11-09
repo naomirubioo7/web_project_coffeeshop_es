@@ -49,7 +49,79 @@
         <p class="info">Avenida del Éxito 200, Ciudad Triple Peaks</p>
       </div>
     </header>
-    <main class="content"></main>
+
+    <main class="content">
+      <section id="reservation">
+        <h2>Reservar una mesa</h2>
+
+        <form
+          class="reservation-form"
+          action="/procesar-formulario"
+          method="POST"
+        >
+          <fieldset>
+            <label class="form__reservation form__label--first" for="nombre"
+              >Nombre*</label
+            >
+            <input
+              type="text"
+              class="form__input"
+              minlength="2"
+              maxlength="20"
+              required
+              id="nombre"
+              placeholder="Nombre"
+            />
+
+            <label class="form__reservation" for="numero"
+              >Número de comensales *</label
+            >
+            <input
+              type="number"
+              class="form__input"
+              min="1"
+              max="8"
+              required
+              placeholder="1-8"
+              id="numero"
+            />
+
+            <label class="form__reservation" for="fechayhora"
+              >Fecha y hora</label
+            >
+            <input
+              type="date"
+              class="form__input"
+              required
+              id="fechayhora"
+              placeholder="dd/mm/aaaa"
+            />
+
+            <label class="form__reservation" for="correo-electronico">
+              Tu Correo electrónico</label
+            >
+            <input
+              type="email"
+              class="form__input"
+              required
+              placeholder="email@email.com"
+              id="correo-electronico"
+            />
+            <button type="submit" class="form__button form__button--submit">
+              Reservar una mesa
+            </button>
+            <label class="form__checkbox" for="terminos">
+              <input
+                type="checkbox"
+                id="terminos"
+                class="form__checkbox-input"
+              />Acepto los términos de uso
+            </label>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
     <footer class="footer"></footer>
   </body>
 </html>
