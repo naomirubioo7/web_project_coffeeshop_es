@@ -130,17 +130,25 @@ fieldset {
   width: 100%;
   margin-bottom: 32px;
 }
+.form__input--numero {
+  margin-bottom: 66px;
+}
+.form__input--fecha {
+  margin-bottom: 20px;
+}
 
 .form__reservation {
   margin-bottom: 8px;
 }
 .form__checkbox {
-  margin-top: 60px;
+  margin-top: 120px;
   display: flex;
   align-items: center;
 }
 .form__checkbox-input {
   border-radius: 2px;
+  width: 20px;
+  height: 20px;
 }
 .form__label--first {
   margin-top: 80px;
