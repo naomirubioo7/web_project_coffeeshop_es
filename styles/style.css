@@ -171,3 +171,25 @@ fieldset {
   margin: 0 auto;
   text-align: left;
 }
+footer {
+  background-color: #d35722;
+  padding-top: 60px;
+  padding-left: 80px;
+}
+
+.logof {
+  position: relative;
+  width: 150px;
+  height: 55px;
+}
+.logof::before {
+  position: absolute;
+  background-color: #e96e3a;
+  border-radius: 50%;
+  content: "";
+  width: 340px;
+  height: 340px;
+  top: 0px;
+  left: 0px;
+  transform: translate(-50%, -50%);
+}
