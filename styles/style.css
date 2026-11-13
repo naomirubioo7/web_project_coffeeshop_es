@@ -32,7 +32,7 @@ nav {
   margin: 30px 26px 0 30px;
 }
 
-.nav-links {
+.nav__links {
   display: flex;
   gap: 20px;
   list-style: none;
@@ -48,7 +48,7 @@ nav {
   margin: 30px 26px;
   transition: color 0.3s;
 }
-.nav-link:hover {
+.nav__link:hover {
   color: #ff976b;
 }
 
@@ -62,7 +62,7 @@ nav {
   justify-content: space-between;
 }
 
-.header-info {
+.header__info {
   margin: auto 0 0 0;
   padding: 0 80px 40px;
   display: flex;
@@ -79,7 +79,7 @@ nav {
   line-height: 72px;
   letter-spacing: -1px;
 }
-.span-accent {
+.span__accent {
   display: block;
   font-family: "Noto Serif", "Times New Roman", Times, serif;
   font-style: italic;
