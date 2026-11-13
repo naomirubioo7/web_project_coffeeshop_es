@@ -17,14 +17,16 @@
   </head>
   <body>
     <header class="header">
-      <div class="Barra_superior">
+      <div class="barra-superior">
         <img src="images/logo_coffeeshop_dark.svg" class="logo" alt="logo" />
         <nav class="nav">
           <ul class="nav-links">
-            <li>
+            <li class="nav-links__li">
               <a class="nav-link" href="#reservation">Reservar una mesa</a>
             </li>
-            <li><a class="nav-link" href="#footer">Contacto</a></li>
+            <li class="nav-links__li">
+              <a class="nav-link" href="#footer">Contacto</a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -51,8 +53,8 @@
     </header>
 
     <main class="content">
-      <section id="reservation">
-        <h2>Reservar una mesa</h2>
+      <section class="reservation" id="reservation">
+        <h2 class="reservation__title">Reservar una mesa</h2>
 
         <form
           class="reservation-form"
