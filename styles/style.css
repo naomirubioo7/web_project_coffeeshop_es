@@ -19,7 +19,7 @@ header {
   max-height: 800px;
   height: 100vh;
 }
-.header-image {
+.header__image {
   position: absolute;
   top: 124px;
   right: 5px;
@@ -37,7 +37,7 @@ nav {
   gap: 20px;
   list-style: none;
 }
-.nav-link {
+.nav__link {
   text-decoration: none;
   color: #000;
   font-family: "inter";
@@ -52,12 +52,12 @@ nav {
   color: #ff976b;
 }
 
-.logo {
+.header__logo {
   margin: 30px 0 0 30px;
   width: 105px;
   height: 39px;
 }
-.barra-superior {
+.header__bar {
   display: flex;
   justify-content: space-between;
 }
@@ -72,7 +72,7 @@ nav {
   color: #6f6f6f;
   display: flex;
 }
-.header-title {
+.header__title {
   max-width: 709px;
   margin: 183px 0 0 80px;
   font-size: 58px;
@@ -96,7 +96,7 @@ h1 {
   max-width: 419px;
 }
 
-.header-description {
+.header__description {
   font-size: 20px;
   line-height: 30px;
   max-width: 683px;
